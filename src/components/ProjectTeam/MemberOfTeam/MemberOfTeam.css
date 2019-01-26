@@ -1,0 +1,9 @@
+.memberOfTeam {
+  display: flex;
+  margin: 10px 0;
+}
+
+.memberOfTeam img {
+  margin-right: 10px;
+  border-radius: 100%;
+}

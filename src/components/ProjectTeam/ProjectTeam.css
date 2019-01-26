@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.projectTeam {
+  font-family: 'Roboto', sans-serif;
+}
+
+.projectTeam h2{
+  text-align: center;
+}
+
+.projectTeam span {
+  font-size: 15px;
+}
