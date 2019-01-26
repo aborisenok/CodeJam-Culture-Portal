@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectTeam.css';
-import data from './data/data';
+import contributors from './contributors/contributors';
 import MemberOfTeam from './MemberOfTeam/MemberOfTeam';
 
 function ProjectTeam() {
@@ -8,19 +8,19 @@ function ProjectTeam() {
     <div className="projectTeam">
       <h2>О нашей команде</h2>
       <MemberOfTeam
-        data={data.aborisenok}
+        data={contributors.aborisenok}
       />
       <MemberOfTeam
-        data={data.youngbrick}
+        data={contributors.youngbrick}
       />
       <MemberOfTeam
-        data={data.kevink}
+        data={contributors.kevink}
       />
       <MemberOfTeam
-        data={data.fursaleksey}
+        data={contributors.fursaleksey}
       />
       <MemberOfTeam
-        data={data.hentmire}
+        data={contributors.hentmire}
       />
     </div>
   )
