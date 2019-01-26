@@ -4,7 +4,7 @@ import kevinkPhoto from '../photos/2kevink.jpg';
 import fursalekseyPhoto from '../photos/fursaleksey.png';
 import hentmirePhoto from '../photos/hentmire.jpg';
 
-const data = {
+const contributors = {
   aborisenok: {
     photo: aborisenokPhoto,
     name: 'Aliaksei Barysionak',
@@ -37,4 +37,4 @@ const data = {
   },
 };
 
-export default data;
+export default contributors;
