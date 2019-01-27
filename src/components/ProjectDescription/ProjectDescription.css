@@ -1,0 +1,12 @@
+.projectDescription {
+  margin: auto;
+  width: 80%;
+}
+
+.projectDescription p {
+  margin: 2rem auto;
+  width: 40%;
+
+  text-align: center;
+  font-size: 1.3rem;
+}
