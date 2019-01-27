@@ -263,7 +263,7 @@ export default [
             './img/person_5/portfolio/work5.jpg',
         ]
     },
-    
+
     {
         id: 6,
         name: 'Артур Александрович Клинов',
@@ -319,5 +319,3 @@ export default [
         ]
     },
 ];
-
-export { people };
