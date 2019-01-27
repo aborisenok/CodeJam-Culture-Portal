@@ -8,7 +8,7 @@ class Search extends Component {
   constructor() {
     super();
     this.state = {
-      peopleList: null
+      peopleList: people
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
