@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from './components/header';
 import HomePage from './pages/homePage/homePage';
+import PeoplePage from './pages/peoplePage/peoplePage'
 
 //mocked components, remove while ready
-const PeoplePage = () => <div></div>;
+//const PeoplePage = () => <div></div>;
 
 class App extends Component {
   render() {
@@ -12,8 +13,8 @@ class App extends Component {
 			<Router>
 				<>
 					<Header />
-					<Route path="/" exact component={HomePage} />
-					<Route path="/phographers" component={PeoplePage} />
+					<Route exact path="/" component={HomePage} />
+					<Route path="/photographers" component={PeoplePage} />
 				</>
 			</Router> 
     )
