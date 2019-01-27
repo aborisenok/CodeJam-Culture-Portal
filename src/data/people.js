@@ -319,3 +319,5 @@ const people = [
         ]
     },
 ];
+
+export { people };
