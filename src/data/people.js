@@ -2,6 +2,7 @@ const people = [
     {
         id: 1,
         name: 'Михаил Владимирович Анемподистов',
+        avaSrc: './../../data/img/person_1/avatar/ava.jpg',
         occupation: 'Белорусский художник, дизайнер, поэт, культуролог, искусствовед',
         birthDate: '16.03.1964',
         birthPlace: 'город Минск, БССР',
@@ -48,12 +49,20 @@ const people = [
                 place: 'Минск',
                 description: 'Умер от инсульта в г.Минске.'
             }
+        ],
+        works: [
+            './../../data/img/person_1/portfolio/work1.jpg',
+            './../../data/img/person_1/portfolio/work2.jpg',
+            './../../data/img/person_1/portfolio/work3.jpg',
+            './../../data/img/person_1/portfolio/work4.jpg',
+            './../../data/img/person_1/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 2,
         name: 'Владимир Сергеевич Базан',
+        avaSrc: './../../data/img/person_2/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, фотожурналист',
         birthDate: '21.10.1953',
         birthPlace: 'г.Унеча, Брянская область, РСФСР',
@@ -80,12 +89,20 @@ const people = [
                 place: 'Витебск',
                 description: 'Главный редактор, дизайнер и фотокорреспондент газеты «Витебский курьер». Главный редактор специального номера газеты, посвященного Первым Шагаловского дням в Витебске (1991). В середине 80-х возглавлял витебский фотоклуб «Витьба». Центральное место в творчестве занимает репортажная, публицистическая, жанровая фотография. Среди основных работ: серии «Думай, парень!» (1982-2005), «Праздник в православной церкви» (1988), «Армения. Декабрь. 1988 »,«Пионерский лагерь» (1989),«Приметы»(1989),«Чернобыльский натюрморт»(1996),«Париж! Париж! Я не хочу домой!»(2001-2007). На сегодняшний день проживает во Франции.'
             }
+        ],
+        works: [
+            './../../data/img/person_2/portfolio/work1.jpg',
+            './../../data/img/person_2/portfolio/work2.jpg',
+            './../../data/img/person_2/portfolio/work3.jpg',
+            './../../data/img/person_2/portfolio/work4.jpg',
+            './../../data/img/person_2/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 3,
         name: 'Михаил Григорьевич Борозна',
+        avaSrc: './../../data/img/person_3/avatar/ava.jpg',
         occupation: 'Белорусский искусствовед, художественный критик, фотограф.',
         birthDate: '20.11.1962',
         birthPlace: 'д.Ракушево, Могилёвской области',
@@ -127,12 +144,20 @@ const people = [
                 place: 'Минск',
                 description: 'Ректор Белорусской государственной академии искусств. Кандидат искусствоведения, профессор кафедры истории и теории искусств, доцент. Почётный член Российской академии художеств. Является автором более 100 публикаций в сфере искусства, участником 30 выставок, организатором 15 персональных выставок и проектов. Лауреат 8 премий, включая Специальную премию Президента РБ в области критики и искусствоведения (2001), медаль Национальной академии наук РБ (2011) и нагрудный знак органов пограничной службы  За помощь органам пограничной службы» Государственного пограничного комитета РБ (2011).'
             },
+        ],
+        works: [
+            './../../data/img/person_3/portfolio/work1.jpg',
+            './../../data/img/person_3/portfolio/work2.jpg',
+            './../../data/img/person_3/portfolio/work3.jpg',
+            './../../data/img/person_3/portfolio/work4.jpg',
+            './../../data/img/person_3/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 4,
         name: 'Лев Урбанович Дашкевич',
+        avaSrc: './../../data/img/person_4/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, учёный, исследователь, публицист, педагог',
         birthDate: '12.02.1882',
         birthPlace: 'г.Минск',
@@ -179,12 +204,20 @@ const people = [
                 place: 'Минск',
                 description: 'Умер в городе Минске'
             }
+        ],
+        works: [
+            './../../data/img/person_4/portfolio/work1.jpg',
+            './../../data/img/person_4/portfolio/work2.jpg',
+            './../../data/img/person_4/portfolio/work3.jpg',
+            './../../data/img/person_4/portfolio/work4.jpg',
+            './../../data/img/person_4/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 5,
         name: 'Георгий Леонардович Лихтарович',
+        avaSrc: './../../data/img/person_5/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, литератор. Член Белорусской союза дизайнеров (2000), член Белорусского союза писателей (2006).',
         birthDate: '06.12.1947',
         birthPlace: 'г.Минск, БССР',
@@ -221,12 +254,20 @@ const people = [
                 place: 'Минск',
                 description: 'С 1992 на творческой работе. В 2000 г. издаёт фотоальбом «Добрый день, Беларусь». В 2001-2006 принимает участие в фотографических и художественных выставках.В 2002 году издаёт книгу поэзии «Общая тетрадь». В 2003 году выбран в Совет белорусской интеллигенции. С 2004 - член Союза Белорусского государственного объединения «Фотоискусство».'
             },
+        ],
+        works: [
+            './../../data/img/person_5/portfolio/work1.jpg',
+            './../../data/img/person_5/portfolio/work2.jpg',
+            './../../data/img/person_5/portfolio/work3.jpg',
+            './../../data/img/person_5/portfolio/work4.jpg',
+            './../../data/img/person_5/portfolio/work5.jpg',
         ]
     },
     
     {
         id: 6,
         name: 'Артур Александрович Клинов',
+        avaSrc: './../../data/img/person_6/avatar/ava.jpg',
         occupation: 'Белорусский художник, дизайнер, фотограф, литератор, сценарист, главный редактор журнала «pARTisan».',
         birthDate: '05.09.1965',
         birthPlace: 'г.Минск, БССР',
@@ -268,6 +309,13 @@ const people = [
                 place: 'Минск',
                 description: 'В 2009 стал работать в киноискусстве в качестве сценариста и художника. Является постановщиком фильмов  «Масакра» (2010)  и  «Hard Reboot» (2014) режиссера Андрея Кудиненко.'
             },
+        ],
+        works: [
+            './../../data/img/person_6/portfolio/work1.jpg',
+            './../../data/img/person_6/portfolio/work2.jpg',
+            './../../data/img/person_6/portfolio/work3.jpg',
+            './../../data/img/person_6/portfolio/work4.jpg',
+            './../../data/img/person_6/portfolio/work5.jpg',
         ]
     },
 ];
