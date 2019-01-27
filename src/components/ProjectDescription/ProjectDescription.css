@@ -1,0 +1,9 @@
+.projectDescription {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.projectDescription p{
+  display: block;
+  width: 20%;
+}
