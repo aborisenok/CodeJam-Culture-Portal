@@ -1,9 +1,12 @@
 .projectDescription {
-  font-size: 1.3rem;
-  text-align: center;
+  margin: auto;
+  width: 80%;
 }
 
-.projectDescription p{
-  display: block;
-  width: 20%;
+.projectDescription p {
+  margin: 2rem auto;
+  width: 40%;
+
+  text-align: center;
+  font-size: 1.3rem;
 }
