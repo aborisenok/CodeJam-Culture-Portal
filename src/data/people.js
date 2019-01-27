@@ -5,7 +5,7 @@ export default [
         avaSrc: './img/person_1/avatar/ava.jpg',
         occupation: 'Белорусский художник, дизайнер, поэт, культуролог, искусствовед',
         birthDate: '16.03.1964',
-        birthPlace: 'город Минск, БССР',
+        birthPlace: 'г.Минск, БССР',
         deathDate: '24.01.2018',
         deathPlace: 'Минск',
         activity: [
@@ -65,7 +65,7 @@ export default [
         avaSrc: './img/person_2/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, фотожурналист',
         birthDate: '21.10.1953',
-        birthPlace: 'г.Унеча, Брянская область, РСФСР',
+        birthPlace: 'г.Унеча, РСФСР',
         deathDate: null,
         deathPlace: null,
         activity: [
@@ -105,7 +105,7 @@ export default [
         avaSrc: './img/person_3/avatar/ava.jpg',
         occupation: 'Белорусский искусствовед, художественный критик, фотограф.',
         birthDate: '20.11.1962',
-        birthPlace: 'д.Ракушево, Могилёвской области',
+        birthPlace: 'д.Ракушево, БССР',
         deathDate: null,
         deathPlace: null,
         activity: [
@@ -160,7 +160,7 @@ export default [
         avaSrc: './img/person_4/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, учёный, исследователь, публицист, педагог',
         birthDate: '12.02.1882',
-        birthPlace: 'г.Минск',
+        birthPlace: 'г.Минск, БССР',
         deathDate: '4.12.1957',
         deathPlace: 'г.Минск',
         activity: [
@@ -319,5 +319,3 @@ export default [
         ]
     },
 ];
-
-export { people };
