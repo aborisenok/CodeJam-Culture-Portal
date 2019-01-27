@@ -7,21 +7,7 @@ function ProjectTeam() {
   return (
     <div className="projectTeam">
       <h2>О нашей команде</h2>
-      <MemberOfTeam
-        data={contributors.aborisenok}
-      />
-      <MemberOfTeam
-        data={contributors.youngbrick}
-      />
-      <MemberOfTeam
-        data={contributors.kevink}
-      />
-      <MemberOfTeam
-        data={contributors.fursaleksey}
-      />
-      <MemberOfTeam
-        data={contributors.hentmire}
-      />
+      {contributors.map(elem => <MemberOfTeam data={elem}/>)}
     </div>
   )
 }
