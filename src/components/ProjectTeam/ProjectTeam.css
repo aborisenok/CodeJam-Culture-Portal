@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 .projectTeam {
-  font-family: 'Roboto', sans-serif;
+  width: 80%;
+
+  margin: auto;
 }
 
 .projectTeam h2{
