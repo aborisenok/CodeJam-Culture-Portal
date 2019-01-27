@@ -1,8 +1,8 @@
-const people = [
+export default [
     {
         id: 1,
         name: 'Михаил Владимирович Анемподистов',
-        avaSrc: './../../data/img/person_1/avatar/ava.jpg',
+        avaSrc: './img/person_1/avatar/ava.jpg',
         occupation: 'Белорусский художник, дизайнер, поэт, культуролог, искусствовед',
         birthDate: '16.03.1964',
         birthPlace: 'город Минск, БССР',
@@ -51,18 +51,18 @@ const people = [
             }
         ],
         works: [
-            './../../data/img/person_1/portfolio/work1.jpg',
-            './../../data/img/person_1/portfolio/work2.jpg',
-            './../../data/img/person_1/portfolio/work3.jpg',
-            './../../data/img/person_1/portfolio/work4.jpg',
-            './../../data/img/person_1/portfolio/work5.jpg',
+            './img/person_1/portfolio/work1.jpg',
+            './img/person_1/portfolio/work2.jpg',
+            './img/person_1/portfolio/work3.jpg',
+            './img/person_1/portfolio/work4.jpg',
+            './img/person_1/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 2,
         name: 'Владимир Сергеевич Базан',
-        avaSrc: './../../data/img/person_2/avatar/ava.jpg',
+        avaSrc: './img/person_2/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, фотожурналист',
         birthDate: '21.10.1953',
         birthPlace: 'г.Унеча, Брянская область, РСФСР',
@@ -91,18 +91,18 @@ const people = [
             }
         ],
         works: [
-            './../../data/img/person_2/portfolio/work1.jpg',
-            './../../data/img/person_2/portfolio/work2.jpg',
-            './../../data/img/person_2/portfolio/work3.jpg',
-            './../../data/img/person_2/portfolio/work4.jpg',
-            './../../data/img/person_2/portfolio/work5.jpg',
+            './img/person_2/portfolio/work1.jpg',
+            './img/person_2/portfolio/work2.jpg',
+            './img/person_2/portfolio/work3.jpg',
+            './img/person_2/portfolio/work4.jpg',
+            './img/person_2/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 3,
         name: 'Михаил Григорьевич Борозна',
-        avaSrc: './../../data/img/person_3/avatar/ava.jpg',
+        avaSrc: './img/person_3/avatar/ava.jpg',
         occupation: 'Белорусский искусствовед, художественный критик, фотограф.',
         birthDate: '20.11.1962',
         birthPlace: 'д.Ракушево, Могилёвской области',
@@ -146,18 +146,18 @@ const people = [
             },
         ],
         works: [
-            './../../data/img/person_3/portfolio/work1.jpg',
-            './../../data/img/person_3/portfolio/work2.jpg',
-            './../../data/img/person_3/portfolio/work3.jpg',
-            './../../data/img/person_3/portfolio/work4.jpg',
-            './../../data/img/person_3/portfolio/work5.jpg',
+            './img/person_3/portfolio/work1.jpg',
+            './img/person_3/portfolio/work2.jpg',
+            './img/person_3/portfolio/work3.jpg',
+            './img/person_3/portfolio/work4.jpg',
+            './img/person_3/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 4,
         name: 'Лев Урбанович Дашкевич',
-        avaSrc: './../../data/img/person_4/avatar/ava.jpg',
+        avaSrc: './img/person_4/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, учёный, исследователь, публицист, педагог',
         birthDate: '12.02.1882',
         birthPlace: 'г.Минск',
@@ -206,18 +206,18 @@ const people = [
             }
         ],
         works: [
-            './../../data/img/person_4/portfolio/work1.jpg',
-            './../../data/img/person_4/portfolio/work2.jpg',
-            './../../data/img/person_4/portfolio/work3.jpg',
-            './../../data/img/person_4/portfolio/work4.jpg',
-            './../../data/img/person_4/portfolio/work5.jpg',
+            './img/person_4/portfolio/work1.jpg',
+            './img/person_4/portfolio/work2.jpg',
+            './img/person_4/portfolio/work3.jpg',
+            './img/person_4/portfolio/work4.jpg',
+            './img/person_4/portfolio/work5.jpg',
         ]
     },
 
     {
         id: 5,
         name: 'Георгий Леонардович Лихтарович',
-        avaSrc: './../../data/img/person_5/avatar/ava.jpg',
+        avaSrc: './img/person_5/avatar/ava.jpg',
         occupation: 'Белорусский фотограф, литератор. Член Белорусской союза дизайнеров (2000), член Белорусского союза писателей (2006).',
         birthDate: '06.12.1947',
         birthPlace: 'г.Минск, БССР',
@@ -256,18 +256,18 @@ const people = [
             },
         ],
         works: [
-            './../../data/img/person_5/portfolio/work1.jpg',
-            './../../data/img/person_5/portfolio/work2.jpg',
-            './../../data/img/person_5/portfolio/work3.jpg',
-            './../../data/img/person_5/portfolio/work4.jpg',
-            './../../data/img/person_5/portfolio/work5.jpg',
+            './img/person_5/portfolio/work1.jpg',
+            './img/person_5/portfolio/work2.jpg',
+            './img/person_5/portfolio/work3.jpg',
+            './img/person_5/portfolio/work4.jpg',
+            './img/person_5/portfolio/work5.jpg',
         ]
     },
     
     {
         id: 6,
         name: 'Артур Александрович Клинов',
-        avaSrc: './../../data/img/person_6/avatar/ava.jpg',
+        avaSrc: './img/person_6/avatar/ava.jpg',
         occupation: 'Белорусский художник, дизайнер, фотограф, литератор, сценарист, главный редактор журнала «pARTisan».',
         birthDate: '05.09.1965',
         birthPlace: 'г.Минск, БССР',
@@ -311,11 +311,11 @@ const people = [
             },
         ],
         works: [
-            './../../data/img/person_6/portfolio/work1.jpg',
-            './../../data/img/person_6/portfolio/work2.jpg',
-            './../../data/img/person_6/portfolio/work3.jpg',
-            './../../data/img/person_6/portfolio/work4.jpg',
-            './../../data/img/person_6/portfolio/work5.jpg',
+            './img/person_6/portfolio/work1.jpg',
+            './img/person_6/portfolio/work2.jpg',
+            './img/person_6/portfolio/work3.jpg',
+            './img/person_6/portfolio/work4.jpg',
+            './img/person_6/portfolio/work5.jpg',
         ]
     },
 ];
