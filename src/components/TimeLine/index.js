@@ -1,10 +1,10 @@
 import React from 'react';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
-export default function TimeLine (props) {
+function BiographyTimeLine(props) {
   return (
     <Timeline lineColor={'#ddd'}>
-      {props.activity.map((item) => {
+      {props.data.activity.map((item) => {
         return (
           <TimelineItem
             dateText={item.date}
@@ -19,3 +19,5 @@ export default function TimeLine (props) {
     </Timeline>
   )
 }
+
+export default BiographyTimeLine;
