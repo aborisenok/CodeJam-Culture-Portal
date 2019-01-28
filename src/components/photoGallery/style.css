@@ -7,3 +7,8 @@
     display: flex;
     align-items: center;
 }
+
+.image-gallery-slide-wrapper > span {
+    width: 100%;
+    display: flex;
+}

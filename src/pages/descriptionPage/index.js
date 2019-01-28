@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Avatar from '../../components/personAvatar/index'
 import BiographyTimeLine from '../../components/TimeLine/index';
 import PhotoGallery from '../../components/photoGallery/index';
+import VideoOverlay from '../../components/videoOverlay/index';
 import people from '../../data/people';
 import './style.css'
 
@@ -14,6 +15,7 @@ class DescriptionPage extends Component {
 				<Avatar data={profile} />
 				<BiographyTimeLine data={profile} />
 				<PhotoGallery data={profile.works} />
+				{profile.videoId ? <VideoOverlay data={profile.videoId} /> : <p className='sorry-message'>Извинте, про данного фотографа видео нет :(</p>}
 			</main>
     )
 	}
