@@ -3,6 +3,7 @@ import './style.css';
 import Utils from './../../utils/utils';
 import people from './../../data/people';
 import SearchList from "./searchList/searchList";
+import uuidv1 from 'uuid/v1';
 
 class Search extends Component {
   constructor() {
@@ -42,7 +43,7 @@ class Search extends Component {
             <select name="cities" id="person-city">
               <option value="all">Все города</option>
               {Utils.getAllCities(people).map(elem =>
-                <option value={elem}>{elem}</option>
+                <option value={elem} key={uuidv1()}>{elem}</option>
               )}
             </select>
           </label>
