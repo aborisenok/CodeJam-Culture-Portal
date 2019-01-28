@@ -7,20 +7,21 @@ import people from '../../data/people';
 import SimpleMap from '../../components/GoogleMap/index'
 import './style.css'
 
+
 class DescriptionPage extends Component {
   render() {
-		let personId = parseInt(this.props.match.params.id);
-		let profile = people.find((item) => item.id === personId);
+    let personId = parseInt(this.props.match.params.id);
+    let profile = people.find((item) => item.id === personId);
     return (
-			<main>
-				<Avatar data={profile} />
-				<BiographyTimeLine data={profile} />
-				<SimpleMap />
-				<PhotoGallery data={profile.works} />
-				{profile.videoId ? <VideoOverlay data={profile.videoId} /> : <p className='sorry-message'>Извинте, про данного фотографа видео нет :(</p>}
-			</main>
+      <main>
+        <Avatar data={profile} />
+        <BiographyTimeLine data={profile} />
+        <SimpleMap data={profile.locationsCoords}/>
+        <PhotoGallery data={profile.works} />
+        {profile.videoId ? <VideoOverlay data={profile.videoId} /> : <p className='sorry-message'>Извинте, про данного фотографа видео нет :(</p>}
+      </main>
     )
-	}
+  }
 }
 
 export default DescriptionPage;

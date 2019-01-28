@@ -73,6 +73,10 @@ export default [
         birthPlace: 'г.Унеча, РСФСР',
         deathDate: null,
         deathPlace: null,
+        locationsCoords: {
+            lat: '55.183672',
+            lng: '30.204791'
+        },
         videoId : '-A-1kSc2IXc',
         activity: [
             {
@@ -114,6 +118,10 @@ export default [
         birthPlace: 'д.Ракушево, БССР',
         deathDate: null,
         deathPlace: null,
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        },    
         activity: [
             {
                 date: '20.11.1962',
@@ -169,6 +177,10 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: '4.12.1957',
         deathPlace: 'г.Минск',
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        },    
         videoId: 'hfSHj8nEEQs',
         activity: [
             {
@@ -230,6 +242,10 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: null,
         deathPlace: null,
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        },    
         videoId: 'YEoAX0pQBsE',
         activity: [
             {
@@ -282,6 +298,10 @@ export default [
         deathDate: null,
         deathPlace: null,
         videoId: '79VAo3KnW2Q',
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        },    
         activity: [
             {
                 date: '05.09.1965',

@@ -5,11 +5,6 @@ import HomePage from './pages/homePage/homePage';
 import PeoplePage from './pages/peoplePage/peoplePage';
 import DescriptionPage from './pages/descriptionPage/index';
 import Footer from './components/footer';
-import SimpleMap from './components/GoogleMap'
-
-
-//mocked components, remove while ready
-//const PeoplePage = () => <div></div>;
 
 class App extends Component {
   render() {
@@ -20,7 +15,6 @@ class App extends Component {
 					<Route exact path="/" component={HomePage} />
 					<Route exact path="/photographers" component={PeoplePage} />
 					<Route path="/photographers/:id" component={DescriptionPage} />
-					<SimpleMap />
 					<Footer />
 				</>
 			</Router> 
