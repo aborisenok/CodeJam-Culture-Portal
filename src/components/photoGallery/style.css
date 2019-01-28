@@ -1,22 +1,14 @@
-.photo-gallery {
-    width: 80%;
+@import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery {
+    width: 60%;
+    overflow: hidden;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-.gallery-container {
+.image-gallery-slide-wrapper > span {
+    width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items:  center;
-    width: 80%;
-    margin: 0 auto;
-}
-  
-.gallery-container img {
-    background-color: #f1f1f1;
-    width: 20%;
-    height: 180px;
-    min-width: 150px;
-    margin: 10px 0;
 }

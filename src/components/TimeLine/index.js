@@ -7,6 +7,7 @@ function BiographyTimeLine(props) {
       {props.data.activity.map((item) => {
         return (
           <TimelineItem
+            key={item.date}
             dateText={item.date}
             dateInnerStyle={{ background: '#474747', color: '#fff' }}
           >
