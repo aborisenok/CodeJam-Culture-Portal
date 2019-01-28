@@ -8,6 +8,7 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: '24.01.2018',
         deathPlace: 'Минск',
+        videoId : '-A-1kSc2IXc',
         activity: [
             {
                 date: '16.03.1964',
@@ -68,6 +69,7 @@ export default [
         birthPlace: 'г.Унеча, РСФСР',
         deathDate: null,
         deathPlace: null,
+        videoId : '-A-1kSc2IXc',
         activity: [
             {
                 date: '21.10.1953',
@@ -163,6 +165,7 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: '4.12.1957',
         deathPlace: 'г.Минск',
+        videoId: 'hfSHj8nEEQs',
         activity: [
             {
                 date: '12.02.1882',
@@ -223,6 +226,7 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: null,
         deathPlace: null,
+        videoId: 'YEoAX0pQBsE',
         activity: [
             {
                 date: '06.12.1947',
@@ -273,6 +277,7 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: null,
         deathPlace: null,
+        videoId: '79VAo3KnW2Q',
         activity: [
             {
                 date: '05.09.1965',
