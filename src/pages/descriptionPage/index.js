@@ -7,9 +7,7 @@ import './style.css'
 class DescriptionPage extends Component {
   render() {
 		let personId = parseInt(this.props.match.params.id);
-		console.log(personId);
 		let profile = people.find((item) => item.id === personId);
-		console.log(people);
     return (
 			<main>
 				<Avatar data={profile} />

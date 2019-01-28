@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css'
 function Avatar(props) {
-  console.log(props);
   return (
     <figure className="person-info">
       <img src={props.data.avaSrc} alt={props.data.name} />
