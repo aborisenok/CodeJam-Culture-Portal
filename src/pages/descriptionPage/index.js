@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Avatar from '../../components/personAvatar/index'
 import BiographyTimeLine from '../../components/TimeLine/index';
 import people from '../../data/people';
+import SimpleMap from '../../components/GoogleMap/index'
 import './style.css'
 
 class DescriptionPage extends Component {
@@ -12,6 +13,7 @@ class DescriptionPage extends Component {
 			<main>
 				<Avatar data={profile} />
 				<BiographyTimeLine data={profile} />
+				<SimpleMap />
 			</main>
     )
 	}
