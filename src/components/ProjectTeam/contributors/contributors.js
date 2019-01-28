@@ -1,37 +1,30 @@
-import aborisenokPhoto from '../photos/aborisenok.jpg';
-import youngbrickPhoto from '../photos/youngbrick.png';
-import kevinkPhoto from '../photos/2kevink.jpg';
-import fursalekseyPhoto from '../photos/fursaleksey.png';
-import hentmirePhoto from '../photos/hentmire.jpg';
-
-
 const contributors = [
   {
-    photo: aborisenokPhoto,
+    photo: './img/team/aborisenok.jpg',
     name: 'Aliaksei Barysionak',
     nickName: 'aborisenok',
     githubURL: 'https://github.com/aborisenok'
   },
   {
-    photo: youngbrickPhoto,
+    photo: './img/team/youngbrick.png',
     name: 'Nastassia Krasheuskaya',
     nickName: 'youngbrick',
     githubURL: 'https://github.com/youngbrick'
   },
   {
-    photo: kevinkPhoto,
+    photo: './img/team/2kevink.jpg',
     name: 'Dzmitryi Kestner',
     nickName: '2kevink',
     githubURL: 'https://github.com/2kevink'
   },
   {
-    photo: fursalekseyPhoto,
+    photo: './img/team/fursaleksey.png',
     name: 'Aliaksei Furs',
     nickName: 'fursaleksey',
     githubURL: 'https://github.com/fursaleksey'
   },
   {
-    photo: hentmirePhoto,
+    photo: './img/team/hentmire.jpg',
     name: 'Viktoryia Udodava',
     nickName: 'hentmire',
     githubURL: 'https://github.com/hentmire'
