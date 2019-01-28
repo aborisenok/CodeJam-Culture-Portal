@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from './components/header';
 import HomePage from './pages/homePage/homePage';
-import PeoplePage from './pages/peoplePage/peoplePage'
+import PeoplePage from './pages/peoplePage/peoplePage';
+import DescriptionPage from './pages/descriptionPage/index';
+//import people from './data/people';
 
 //mocked components, remove while ready
 //const PeoplePage = () => <div></div>;
@@ -14,7 +16,8 @@ class App extends Component {
 				<>
 					<Header />
 					<Route exact path="/" component={HomePage} />
-					<Route path="/photographers" component={PeoplePage} />
+					<Route exact path="/photographers" component={PeoplePage} />
+					<Route path="/photographers/:id" component={DescriptionPage} />
 				</>
 			</Router> 
     )
