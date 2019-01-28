@@ -8,6 +8,10 @@ export default [
         birthPlace: 'г.Минск, БССР',
         deathDate: '24.01.2018',
         deathPlace: 'Минск',
+        locationsCoords: {
+            lat: '53.902496',
+            lng: '27.561481'
+        },        
         videoId : '-A-1kSc2IXc',
         activity: [
             {

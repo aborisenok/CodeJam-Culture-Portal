@@ -4,6 +4,7 @@ import BiographyTimeLine from '../../components/TimeLine/index';
 import PhotoGallery from '../../components/photoGallery/index';
 import VideoOverlay from '../../components/videoOverlay/index';
 import people from '../../data/people';
+import SimpleMap from '../../components/GoogleMap/index'
 import './style.css'
 
 class DescriptionPage extends Component {
@@ -14,6 +15,7 @@ class DescriptionPage extends Component {
 			<main>
 				<Avatar data={profile} />
 				<BiographyTimeLine data={profile} />
+				<SimpleMap />
 				<PhotoGallery data={profile.works} />
 				{profile.videoId ? <VideoOverlay data={profile.videoId} /> : <p className='sorry-message'>Извинте, про данного фотографа видео нет :(</p>}
 			</main>
