@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import './style.css';
 
-
 const Marker = ({ text }) => <div className="marker">{text}</div>;
 
 class SimpleMap extends Component {
@@ -11,21 +10,20 @@ class SimpleMap extends Component {
       lat: 53.902496,
       lng: 27.561481
     },
-    zoom: 11
+    zoom: 6
   };
 
   render() {
     return (
-      // Important! Always set the container height explicitly
       <div className="map">
         <GoogleMapReact
-          //bootstrapURLKeys={{ key: /* YOUR KEY HERE */ }}
+          bootstrapURLKeys={{ key: 'AIzaSyBB4EA5WgU-7c5ady2VlKggOfol7svDjwM' }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
         <Marker
-            lat={'53.902496'}
-            lng={'27.561481'}
+            lat={this.props.data.lat}
+            lng={this.props.data.lng}
             text={''}
         />
         </GoogleMapReact>
@@ -35,7 +33,3 @@ class SimpleMap extends Component {
 }
  
 export default SimpleMap;
-
-//Унеча, Брянская область 52.845115, 32.670676
-//Ракушево 54.216204, 29.775361
-//Витебск 55.183672, 30.204791
